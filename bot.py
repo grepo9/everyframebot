@@ -68,7 +68,6 @@ while iters > 0:
 
     cursor.execute(f"UPDATE bot SET last_frame = {next_frame}")
     connection.commit()
-
     iters -= 1
 
     time.sleep(5)
